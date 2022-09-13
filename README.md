@@ -1,5 +1,5 @@
 # Opal Financial Transactions API
-
+## By Said-cmd
 This financial transactions API is a simple web API where you make CRUD calls to a server to organize a financial transactions app.
 
 ## Front-end Project Task Management Interface
