@@ -18,6 +18,7 @@ This repository holds the client-side of the app. This API is used in conjunctio
 
 Install it and run:
 
+```sh
 bundle install
 
 # create migrations with activerecord
@@ -28,6 +29,7 @@ rake db:seed
 
 # start server
 rackup config.ru
+```
 
 ## Relationships within Database
 
@@ -41,9 +43,9 @@ rackup config.ru
 
 ## Example Calls You Can Make With API
 
-### Projects
+### Transactions
 
-You can make all CRUD calls for the projects database.
+You can make all CRUD calls for the transactions database.
 
 - CREATE transactions
 - GET all transactions
