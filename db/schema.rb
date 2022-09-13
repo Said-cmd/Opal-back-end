@@ -13,9 +13,9 @@
 ActiveRecord::Schema.define(version: 2022_09_13_150153) do
 
   create_table "transactions", force: :cascade do |t|
-    t.datetime "date"
+    t.date "date"
     t.string "description"
-    t.integer "amount"
+    t.float "amount"
     t.string "category"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
