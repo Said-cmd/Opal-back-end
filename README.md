@@ -19,19 +19,20 @@ This repository holds the client-side of the app. This API is used in conjunctio
 Install it and run:
 
 ```sh
+# to install the dependencies 
 bundle install
 
-# create migrations with activerecord
+# to create and run migrations with activerecord
 rake db:migrate
 
-# if you would like to use seed data
+# if you would like to use seed data provided by the API
 rake db:seed
 
-# start server
+# to start the server
 rackup config.ru
 ```
 
-## Relationships within Database
+## Relationships Within The Database
 
 ### User
 
