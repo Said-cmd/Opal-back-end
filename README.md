@@ -29,7 +29,11 @@ rake db:migrate
 rake db:seed
 
 # to start the server
-rackup config.ru
+bundle exec rake server    
+
+  OR
+
+rackup config.ru if you have issues with some of the gems
 ```
 
 ## Relationships Within The Database
