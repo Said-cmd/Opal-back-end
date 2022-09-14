@@ -33,7 +33,7 @@ bundle exec rake server
 
   OR
 
-rackup config.ru if you have issues with some of the gems
+rackup config.ru (in case you have issues with some of the gems)
 ```
 
 ## Relationships Within The Database
