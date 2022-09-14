@@ -68,7 +68,7 @@ GEM
     sinatra-activerecord (2.0.25)
       activerecord (>= 4.1)
       sinatra (>= 1.0)
-    sqlite3 (1.5.0.rc2-x86_64-darwin)
+    sqlite3 (1.5.0-x86_64-darwin)
     test-unit (3.5.3)
       power_assert
     tilt (2.0.11)
@@ -94,7 +94,7 @@ DEPENDENCIES
   rspec-json_expectations (~> 2.2)
   sinatra (~> 2.1)
   sinatra-activerecord (~> 2.0)
-  sqlite3 (~> 1.5.0.rc2)
+  sqlite3 (~> 1.5)
   test-unit (~> 3.5, >= 3.5.3)
 
 BUNDLED WITH

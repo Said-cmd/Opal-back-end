@@ -32,8 +32,8 @@ gem 'rake-compiler', '~> 1.2'
 gem 'rake-compiler-dock', '~> 1.2', '>= 1.2.2'
 gem 'test-unit', '~> 3.5', '>= 3.5.3'
 
-# Provides functionality to interact with a SQLite3 database
-gem 'sqlite3', '~> 1.5.0.rc2'
+# Provides functionality to interact with a PostgreSQL database
+gem 'sqlite3', '~> 1.5'
 
 # Require all files in a folder
 gem "require_all", "~> 3.0"
