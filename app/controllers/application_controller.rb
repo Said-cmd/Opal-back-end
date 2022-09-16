@@ -9,7 +9,7 @@ class ApplicationController < Sinatra::Base
 
     # selects and displays all the transactions in the database
     get "/transactions" do 
-      transactions= Transaction.all
+      transactions = Transaction.all.order(date: :desc)
       transactions.to_json
     end
 
